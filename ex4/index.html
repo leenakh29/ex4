@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/style.css">
+    <title>Leena khatib</title>
+    <script src="js/script.js"> </script>
+</head>
+<body>
+    <div id="wrapper">
+    <form  action="http://se.shenkar.ac.il/teach/web1/2021/get_form3.php "
+    method = "GET">
+    <h1>Join My Club !</h1>
+  <label>Full name:</label>
+  <input class="form-control" type="text" name="fullName" placeholder="YOUR NAME!" pattern="^[a-zA -z]+ [a-zA -z]+$" required>
+  <br><br>
+  <label>Email:</label>
+  <input class="email" tybe="email" name="mail" placeholder="leena@example.com">
+   <br><br>
+  <label>Password:</label>
+  <input class="password" tybe="pwd" name="pass" minlength="6" pattern="(?=.*[A-Z]).{8,}"required>
+  <br><br>
+  <label>Website:</label>
+  <input class="web" tybe="wb" name="Website" >
+  <br><br>
+  <label>Phone Num:</label>
+  <input class="Phone Num" tybe="ph" name="phone" minlength="9" maxlength="10">
+  <br><br>
+  <label>Coffee:</label>
+  <input class="coffee" tybe="coffe" name="coffee">
+  <br><br>
+  <lable>Temperature:</lable>
+ <input type="range" name="temper" min="12" max="29">
+  <br><br>
+  <label for="address">Address:</label>
+  <br><br>
+  <textarea class="address" name="address" rows="5" cols="20"></textarea>
+  <br><br>
+
+     <h3>Interest:</h3>
+         <input type="checkbox" id="op1" name="interest" value="sleep">
+         <label for="op1">sleeping</label><br>
+        <input type="checkbox" id="op2" name="interest" value="sleep">
+        <label for="op2"> sleeping</label><br>
+        <input type="checkbox" id="op3" name="interest" value="sleep">
+        <label for="op3"> sleeping</label>
+
+    <h3>Gender:</h3>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">other</label>
+        <br></br>
+
+        <h3>Age:</h3>
+        <label for="age">your age:</label>
+        <select name="age" id="age" required>
+          <option value="18">18</option>
+          <option value="19">19</option>
+          <option value="20">20</option>
+          <option value="21">21</option>
+          <option value="22">22</option>
+          <option value="23">23</option>
+          <option value="24">24</option>
+        </select>
+        <br><br>   
+
+        <input type="submit" value="Done!">
+    </form>
+    </div>
+    </body>
+    </html>
+
+      
+
+
